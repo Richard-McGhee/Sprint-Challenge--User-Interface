@@ -119,9 +119,9 @@ p {
     font-size: 1.5rem;
 }
 
-.middle-content .boxes .box .box1 {
+/* .middle-content .boxes .box .box1 {
     background: teal;
-}
+} */
 
 .bottom-content {
     display: flex;
@@ -200,17 +200,40 @@ footer nav a {
         font-size: 2.8rem;
     }
 
+/* Top content for 800 */
+
     .top-content {
         flex-direction: column;
     }
     .top-content .text-container {
         width: 100%;
         font-size: 1.8rem;
-        border: solid 2px black;
+        /* border: solid 2px black; */
     }
     .top-content .text-container h2 {
         font-size: 2.4rem;
         margin-bottom: 0;
         /* border: solid 2px black; */
+    }
+
+/* Middle content at 800 */
+
+    .middle-content .boxes .box {
+        width: 29%;
+        height: 225px;
+    }
+
+/* Bottom Content at 800 */
+
+    .bottom-content {
+        border: solid 2px black;
+    }
+    .bottom-content .text-container {
+        font-size: 1.8rem;
+        /* margin: 0 5% 0; */
+        border: solid 2px black;
+    }
+    .bottom-content .text-container h2 {
+        font-size: 2.4rem;
     }
 }
