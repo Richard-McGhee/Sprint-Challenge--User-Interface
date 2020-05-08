@@ -203,4 +203,14 @@ footer nav a {
     .top-content {
         flex-direction: column;
     }
+    .top-content .text-container {
+        width: 100%;
+        font-size: 1.8rem;
+        border: solid 2px black;
+    }
+    .top-content .text-container h2 {
+        font-size: 2.4rem;
+        margin-bottom: 0;
+        /* border: solid 2px black; */
+    }
 }
