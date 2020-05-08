@@ -88,7 +88,7 @@ p {
     padding-bottom: 20px;  
 }
 .text-container {
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .middle-content {
@@ -116,6 +116,11 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 1.5rem;
+}
+
+.middle-content .boxes .box .box1 {
+    background: teal;
 }
 
 .bottom-content {
@@ -178,4 +183,24 @@ footer nav a {
     font-size: 1.4rem;
     margin: 0 6% 0;
     /* border: 2px solid black; */
+}
+
+/* Media at 800px */
+
+@media (max-width: 800px) {
+    #landing {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .links-with-logo {
+        padding: 4%;
+    }
+    .nav-links a {
+        margin: 0 2% 0;
+        font-size: 2.8rem;
+    }
+
+    .top-content {
+        flex-direction: column;
+    }
 }
