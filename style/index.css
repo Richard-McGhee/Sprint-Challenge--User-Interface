@@ -163,12 +163,14 @@ footer nav a {
 #landing {
     width: 800px;
     margin: 0 auto;
+    /* border: 1px solid green;  */
 }
 
 .links-with-logo {
     display: flex;
     align-items: center;
     padding: 2.5% 0;
+    /* border: 1px solid red; */
 }
 .nav-links {
     display: flex;
@@ -182,7 +184,12 @@ footer nav a {
     width: 20%;
     font-size: 1.4rem;
     margin: 0 6% 0;
+    text-decoration: none;
+    display: block;
     /* border: 2px solid black; */
+}
+.nav-links nav {
+    display: flex;
 }
 
 /* Media at 800px */
