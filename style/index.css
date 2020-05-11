@@ -257,7 +257,7 @@ footer nav a {
     .nav-logo {
         width: 25%;
     }
-}   
+   
 
 /* Top content for 800 */
 
@@ -296,3 +296,4 @@ footer nav a {
     .bottom-content .text-container h2 {
         font-size: 2.4rem;
     }
+}
