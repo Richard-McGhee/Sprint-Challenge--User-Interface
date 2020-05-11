@@ -195,15 +195,25 @@ footer nav a {
 /* Header styling */
 
 #landing {
-    width: 800px;
+    width: 75%;
     margin: 0 auto;
     /* border: 1px solid green;  */
 }
-
+.nav-logo {
+    width: 20%;
+}
+.splash-image {
+   text-align: center;
+    /* border: 1px solid purple; */
+}
+.splash-image img {
+    width: 80%;
+}
 .links-with-logo {
     display: flex;
     align-items: center;
     padding: 2.5% 0;
+    margin: 0 10%;
     /* border: 1px solid red; */
 }
 .nav-links {
@@ -211,19 +221,24 @@ footer nav a {
     flex-direction: column;
     justify-content: space-evenly;
     width: 100%;
-    padding-left: 2%;
+    padding: 3% 0 0 0;
     /* border: 2px solid black; */
 }
 .nav-links a {
     width: 20%;
     font-size: 1.4rem;
-    margin: 0 6% 0;
+    margin: 0 5% 0;
     text-decoration: none;
     display: block;
+    color: black;
     /* border: 2px solid black; */
 }
 .nav-links nav {
     display: flex;
+}
+.nav-logo img{
+    width: 100%;
+    /* border: 1px solid red; */
 }
 
 /* Media at 800px */
