@@ -432,141 +432,17 @@ footer nav a {
 /* Mobile Query for footer */
 
 @media(max-width: 500px) {
-
-}
-
-/* New Header and Styling from richard-mcghee branch */
-
-/* Header styling */
-
-/* #landing {
-    width: 800px;
-    margin: 0 auto;
-    border: 1px solid green; 
-}
-.nav-logo {
-    width: 20%;
-}
-.splash-image {
-   text-align: center;
-    border: 1px solid purple;
-}
-.splash-image img {
-    width: 100%;
-}
-.links-with-logo {
-    display: flex;
-    align-items: center;
-    padding: 3% 0;
-    margin: 0 10%;
-     border: 1px solid red;
-}
-.nav-links {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 100%;
-    padding: 3% 0 0 0;
-    border: 2px solid black;
-}
-.nav-links a {
-    width: 20%;
-    font-size: 1.4rem;
-    margin: 0 5% 0;
-    text-decoration: none;
-    display: block;
-    color: black;
-    border: 2px solid black;
-}
-.nav-links nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-.nav-logo img{
-    width: 100%;
-    border: 1px solid red;
-} */
-
-/* Media at 800px */
-
-/* @media (max-width: 800px) {
-    .container {
-        width: 100%;
-    }
-
-    #landing {
-        width: 100%;
-    }
-    .nav-links nav {
-        display: flex;
-        justify-content: space-evenly;
-        border: 1px solid red;
-    }
-    .nav-links a {
-        font-size: 2.8rem;
-        margin: 0;
-        border: 1px solid green;
-    }
-    .nav-logo {
-        padding-left: 3%;
-    }
-    .nav-logo {
-        width: 25%;
-    }
-    */
-
-/* Top content for 800 */
-
-    /* .top-content {
-        flex-direction: column;
-        padding: 0 5%;
-    }
-    .top-content .text-container {
-        width: 100%;
-        font-size: 1.7rem;
-        border: solid 2px black;
-    }
-    /* .top-content .text-container h2 {
-        font-size: 2.3rem;
-        margin-bottom: 0;
-        border: solid 2px black;
-    }
-
-/* Middle content at 800 */
-
-    /* .middle-content .boxes .box {
-        width: 29%;
-        height: 225px;
-    } */
-
-/* Bottom Content at 800 */
-
-    /* .bottom-content {
-        border: solid 2px black;
-        flex-wrap: wrap;
-    }
-    .bottom-content .text-container {
-        font-size: 1.8rem;
-        width: 50%;
-        border: solid 2px black;
-    }
-    .bottom-content .text-container h2 {
-        font-size: 2.4rem;
-    } */
-
-/* Footer Nav */
-
-    /* footer {
-        height: 150px;
-        display: flex;
-        justify-content: center;
-    }
     footer nav {
-        justify-content: space-evenly;
-        width: 85%;
+        flex-direction: column;
+        align-items: center;
+        height: 45vh;
     }
     footer nav a {
-        font-size: 2.8rem;
+        width: 100%;
+        margin-bottom: 2%;
+        /* border: 2px solid limegreen; */
     }
-} */
+    footer nav a:first-child {
+        margin-top: 2%;
+    }
+}
