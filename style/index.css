@@ -77,6 +77,9 @@ p {
 /* Tablet Query for container from richard-mcghee branch*/
 
 @media(max-width: 800px) {
+    h2 {
+        font-size: 2.5rem;
+    }
     .container {
         width: 100%;
     }
@@ -174,13 +177,23 @@ p {
     font-size: 1.6rem;
 }
 
-/* Tablet Query for */
+/* Tablet Query for top content */
 
 @media(max-width: 800px) {
-    
+    .top-content {
+        flex-direction: column;
+        padding: 0 2.5% 20px 2.5%;
+        width: 100%;
+    }
+    .top-content .text-container {
+        width: 100%;
+    }
+    .text-container {
+        font-size: 1.75rem;
+    }
 }
 
-/* Mobile Query for */
+/* Mobile Query for top content */
 
 @media(max-width: 500px) {
 
@@ -205,13 +218,13 @@ p {
     justify-content: space-evenly;
 }
 
-/* Tablet Query for */
+/* Tablet Query for middle content */
 
 @media(max-width: 800px) {
     
 }
 
-/* Mobile Query for */
+/* Mobile Query for middle content */
 
 @media(max-width: 500px) {
 
@@ -265,13 +278,13 @@ p {
     font-size: 1.5rem;
 }
 
-/* Tablet Query for */
+/* Tablet Query for boxes */
 
 @media(max-width: 800px) {
     
 }
 
-/* Mobile Query for */
+/* Mobile Query for boxes */
 
 @media(max-width: 500px) {
 
@@ -294,13 +307,13 @@ p {
     padding-right: 0;
 }
 
-/* Tablet Query for */
+/* Tablet Query for bottom content */
 
 @media(max-width: 800px) {
     
 }
 
-/* Mobile Query for */
+/* Mobile Query for bottom content */
 
 @media(max-width: 500px) {
 
@@ -329,13 +342,13 @@ footer nav a {
     text-decoration: none;
 }
 
-/* Tablet Query for */
+/* Tablet Query for footer */
 
 @media(max-width: 800px) {
     
 }
 
-/* Mobile Query for */
+/* Mobile Query for footer */
 
 @media(max-width: 500px) {
 
