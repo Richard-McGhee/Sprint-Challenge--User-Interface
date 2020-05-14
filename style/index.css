@@ -88,7 +88,9 @@ p {
 /* Mobile Query for container from richard-mcghee branch*/
 
 @media(max-width: 500px) {
-
+    .container {
+        width: 100%;
+    }
 }
 
 /* New Header and Styling from richard-mcghee branch */
@@ -153,7 +155,24 @@ p {
 /* Mobile Query for header*/
 
 @media(max-width: 500px) {
-
+    .links-with-logo {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .links-with-logo .nav-logo {
+        width: 100%;
+        text-align: center;
+    }
+    .links-with-logo .nav-links nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin-top: 5%;
+    }
+    .links-with-logo .nav-links a {
+        width: 100%;
+        margin: 1.5% 0;
+    }
 }
 
 
