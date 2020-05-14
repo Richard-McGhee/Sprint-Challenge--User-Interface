@@ -366,7 +366,16 @@ footer nav a {
 /* Tablet Query for footer */
 
 @media(max-width: 800px) {
-    
+    footer nav {
+        justify-content: center;
+        width: 100%;
+        font-size: 2.5rem;
+        height: 30vh;
+    }
+    footer nav a {
+        width: 15%;
+        text-align: center;
+    }
 }
 
 /* Mobile Query for footer */
