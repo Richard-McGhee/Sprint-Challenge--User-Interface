@@ -78,6 +78,39 @@ p {
 
 /* Header styling */
 
+
+.links-with-logo {
+    display:flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin: 2.75% auto;
+}
+.links-with-logo .nav-logo {
+    width: 20%;
+    border: 2px solid blue;
+}
+.links-with-logo .nav-links {
+    width: 80%;
+    border: 2px solid red;
+}
+.links-with-logo .nav-links nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3.5%;
+    border: 2px solid orangered;
+}
+.links-with-logo .nav-links a {
+    border: 2px solid green;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+}
+
+/* Top content */
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -94,6 +127,9 @@ p {
 .text-container {
     font-size: 1.6rem;
 }
+
+/* Middle Content */
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -159,6 +195,7 @@ p {
     font-size: 1.5rem;
 }
 
+/* Bottom content */
 
 
 .bottom-content {
@@ -174,6 +211,9 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* Footer */
+
 
 footer {
     width: 100%;
