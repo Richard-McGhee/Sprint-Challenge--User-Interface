@@ -77,7 +77,9 @@ p {
 /* Tablet Query for container from richard-mcghee branch*/
 
 @media(max-width: 800px) {
-
+    .container {
+        width: 100%;
+    }
 }
 
 /* Mobile Query for container from richard-mcghee branch*/
@@ -98,20 +100,20 @@ p {
 }
 .links-with-logo .nav-logo {
     width: 20%;
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
 }
 .links-with-logo .nav-links {
     width: 80%;
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 .links-with-logo .nav-links nav {
     display: flex;
     justify-content: space-evenly;
     padding-top: 3.5%;
-    /* border: 2px solid orangered; */
+    border: 2px solid orangered;
 }
 .links-with-logo .nav-links a {
-    /* border: 2px solid green; */
+    border: 2px solid green;
     width: 100%;
     text-align: center;
     text-decoration: none;
@@ -119,13 +121,33 @@ p {
     font-size: 1.4rem;
 }
 
-/* Tablet Query*/
+/* Tablet Query for header*/
 
 @media(max-width: 800px) {
-
+    .links-with-logo {
+        margin: 4.5% 3%;
+        justify-content: space-between;
+    }
+    .links-with-logo .nav-logo {
+        width: 25%;
+    }
+    .links-with-logo .nav-links {
+        width: 75%;
+    }
+    .links-with-logo .nav-links nav {
+        padding-top: 2.5%;
+        justify-content: space-between;
+    }
+    .links-with-logo .nav-links a{
+        font-size: 2.8rem;
+        width: 18%;
+    }
+    .splash-image img {
+        width: 100%;
+    }
 }
 
-/* Mobile Query*/
+/* Mobile Query for header*/
 
 @media(max-width: 500px) {
 
