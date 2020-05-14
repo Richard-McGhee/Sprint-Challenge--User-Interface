@@ -290,6 +290,7 @@ p {
     .middle-content .boxes .box {
         width: 30%;
         height: 225px;
+        font-size: 2.5rem;
         /* margin: 20px 1.7%; */
     }
 }
@@ -320,7 +321,17 @@ p {
 /* Tablet Query for bottom content */
 
 @media(max-width: 800px) {
-    
+    .bottom-content {
+        flex-wrap: wrap;
+        margin-bottom: 10%;
+    }
+    .bottom-content .text-container {
+        width: 35%;
+        padding-right: 0;    
+    }
+    .bottom-content .text-container:last-child {
+        margin-top: 2%;
+    }
 }
 
 /* Mobile Query for bottom content */
