@@ -221,7 +221,13 @@ p {
 /* Tablet Query for middle content */
 
 @media(max-width: 800px) {
-    
+    .middle-content {
+        margin-bottom: 35px;
+    }
+    .middle-content h2 {
+        padding: 0 4%;
+        margin: 5% 0 2% 0;
+    }
 }
 
 /* Mobile Query for middle content */
@@ -281,7 +287,11 @@ p {
 /* Tablet Query for boxes */
 
 @media(max-width: 800px) {
-    
+    .middle-content .boxes .box {
+        width: 30%;
+        height: 225px;
+        /* margin: 20px 1.7%; */
+    }
 }
 
 /* Mobile Query for boxes */
