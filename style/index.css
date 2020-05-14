@@ -260,7 +260,19 @@ p {
 /* Mobile Query for middle content */
 
 @media(max-width: 500px) {
-
+    .middle-content {
+        border: none;
+    }
+    .middle-content h2 {
+        text-align: center;
+        margin: 0 0 2% 0;
+        font-size: 2.8rem;
+        width: 100%;
+    }
+    .middle-content .boxes {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 /* Box colors */
@@ -325,7 +337,13 @@ p {
 /* Mobile Query for boxes */
 
 @media(max-width: 500px) {
-
+    .middle-content .boxes .box {
+        height: 165px;
+        margin: 10px 2.5%;
+    }
+    .middle-content .boxes .box:last-child {
+        margin-bottom: 6%;;
+    }
 }
 
 /* Bottom content */
