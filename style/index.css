@@ -100,20 +100,20 @@ p {
 }
 .links-with-logo .nav-logo {
     width: 20%;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 .links-with-logo .nav-links {
     width: 80%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .links-with-logo .nav-links nav {
     display: flex;
     justify-content: space-evenly;
     padding-top: 3.5%;
-    border: 2px solid orangered;
+    /* border: 2px solid orangered; */
 }
 .links-with-logo .nav-links a {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 100%;
     text-align: center;
     text-decoration: none;
