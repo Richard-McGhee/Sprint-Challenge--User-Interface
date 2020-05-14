@@ -218,7 +218,12 @@ p {
 /* Mobile Query for top content */
 
 @media(max-width: 500px) {
-
+    .top-content {
+        align-items: center;
+    }
+    .top-content .text-container{
+        width: 90%;
+    }
 }
 
 /* Middle Content */
