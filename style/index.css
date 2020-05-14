@@ -74,6 +74,18 @@ p {
     margin: 0 auto;
 }
 
+/* Tablet Query for container from richard-mcghee branch*/
+
+@media(max-width: 800px) {
+
+}
+
+/* Mobile Query for container from richard-mcghee branch*/
+
+@media(max-width: 500px) {
+
+}
+
 /* New Header and Styling from richard-mcghee branch */
 
 /* Header styling */
@@ -82,7 +94,7 @@ p {
 .links-with-logo {
     display:flex;
     align-items: center;
-    margin: 2.75% auto;
+    margin: 4.5% auto;
 }
 .links-with-logo .nav-logo {
     width: 20%;
@@ -106,6 +118,19 @@ p {
     color: black;
     font-size: 1.4rem;
 }
+
+/* Tablet Query*/
+
+@media(max-width: 800px) {
+
+}
+
+/* Mobile Query*/
+
+@media(max-width: 500px) {
+
+}
+
 
 /* Top content */
 
