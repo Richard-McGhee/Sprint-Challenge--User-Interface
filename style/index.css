@@ -173,6 +173,9 @@ p {
         width: 100%;
         margin: 1.5% 0;
     }
+    .splash-image img {
+        height: 30vh;
+    }
 }
 
 
