@@ -382,7 +382,13 @@ p {
 /* Mobile Query for bottom content */
 
 @media(max-width: 500px) {
-
+    .bottom-content .text-container {
+        width: 90%;
+        margin: 3%;
+    }
+    .bottom-content .text-container:first-child {
+        margin-top: 0%;
+    }
 }
 
 /* Footer */
